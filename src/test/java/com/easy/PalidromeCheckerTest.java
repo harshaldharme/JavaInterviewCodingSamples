@@ -8,8 +8,8 @@ class PalidromeCheckerTest {
 
 	@Test
 	void test() {
-		String input = "h";
-		assertTrue(PalidromeChecker.palidromeChecker(input), "Check passed");
+		String input = "haha";
+		assertTrue(PalidromeChecker.palidromeChecker(input));
 	}
 
 }
